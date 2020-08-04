@@ -24,6 +24,7 @@
 		8533F3D1E5ABA62D587036E8 /* libPods-tsigorta-tsigortaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02316093E94CBDF1FF32A49D /* libPods-tsigorta-tsigortaTests.a */; };
 		BA1E8FC924CC188700102C63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA1E8FC824CC188600102C63 /* GoogleService-Info.plist */; };
 		DE34C963619C4182809B2F5C /* SFProDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F460818FF24C4AF7A89CB844 /* SFProDisplay-Medium.otf */; };
+		F2527E0C24D981C0009AC3A2 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2527E0B24D981C0009AC3A2 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		D8383144AB2BC0A8DC4EDF23 /* libPods-tsigorta-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tsigorta-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F2527E0B24D981C0009AC3A2 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		F460818FF24C4AF7A89CB844 /* SFProDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Medium.otf"; path = "../src/assets/fonts/SFProDisplay-Medium.otf"; sourceTree = "<group>"; };
 		F60F93C9D40C96978037418B /* libPods-tsigorta-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tsigorta-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -184,6 +186,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F2527E0B24D981C0009AC3A2 /* AppCenter-Config.plist */,
 				BA1E8FC824CC188600102C63 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* tsigorta */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -367,6 +370,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				61A5EDAF596645EBBE6304F5 /* SFProDisplay-Bold.otf in Resources */,
+				F2527E0C24D981C0009AC3A2 /* AppCenter-Config.plist in Resources */,
 				DE34C963619C4182809B2F5C /* SFProDisplay-Medium.otf in Resources */,
 				1045F35BA87C468AAE1A91DA /* SFProDisplay-Regular.otf in Resources */,
 				BA1E8FC924CC188700102C63 /* GoogleService-Info.plist in Resources */,
