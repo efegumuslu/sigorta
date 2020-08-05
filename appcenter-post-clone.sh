@@ -10,4 +10,4 @@
 echo "uninstalling all cocoapods versions"
 sudo gem uninstall cocoapods --all
 echo "installing cocoapods version "
-sudo gem install cocoapods -v 1.9.4
+sudo gem install cocoapods -v 1.9.3
