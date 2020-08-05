@@ -18,12 +18,12 @@ echo "Uninstalling all cocoapods versions"
 sudo gem uninstall cocoapods --all
 sudo gem install cocoapods -v 1.9.3
 
-# Upgrade Node to a version expected by React Native 0.60
-set -ex
-brew uninstall node@6
-NODE_VERSION="8.10.0"
-curl "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.pkg" > "$HOME/Downloads/node-installer.pkg"
-sudo installer -store -pkg "$HOME/Downloads/node-installer.pkg" -target "/"
+# # Upgrade Node to a version expected by React Native 0.60
+# set -ex
+# brew uninstall node@6
+# NODE_VERSION="8.10.0"
+# curl "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.pkg" > "$HOME/Downloads/node-installer.pkg"
+# sudo installer -store -pkg "$HOME/Downloads/node-installer.pkg" -target "/"
 
-# Run Yarn
-yarn
+# # Run Yarn
+# yarn
